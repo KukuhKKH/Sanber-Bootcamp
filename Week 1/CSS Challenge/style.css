@@ -1,0 +1,79 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Slabo", Helvetica, sans-serif;
+}
+body {
+  background-image: url("public/img/pattern.jpg");
+}
+header {
+  background-color: white;
+}
+
+header img {
+   float: left;
+}
+
+header ul {
+   margin: 0;
+   list-style: none;
+}
+
+nav {
+   text-align: right;
+}
+
+header ul > li { 
+   display: inline; 
+}
+
+header a {
+  display: inline-block;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 20px;
+}
+
+section {
+  background-color: white;
+  margin-top: 10px;
+  width: 1000px;
+  margin: 10px auto;
+  padding: 10px;
+}
+
+@media only screen and (max-width: 1050px) {
+   section {
+      width: 600px;
+   }
+}
+
+section h1 {
+   text-align: center;
+   margin-bottom: 40px;
+   margin-top: 20px;
+}
+
+section a {
+   text-decoration: none;
+   color: black;
+   margin-bottom: 10px;
+   display: inline-block;
+}
+section p {
+   border-bottom: black 1px solid;
+   padding-bottom: 20px;
+   margin-bottom: 50px;
+}
+
+footer {
+   background-color: black;
+}
+
+footer h5 {
+   color: white;
+   text-align: center;
+   padding: 20px;
+}
