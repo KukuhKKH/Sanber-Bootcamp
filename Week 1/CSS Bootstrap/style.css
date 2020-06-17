@@ -1,0 +1,31 @@
+* {
+   margin: 0;
+   padding: 0;
+}
+
+.text-center > p.text-white {
+   padding: 5px;
+   margin: 3px;
+}
+
+.bg-dark.text-center {
+   border-radius: 2px;
+}
+
+.jumbotron {
+   background-image: url('public/img/jumbotron.jpg');
+   background-size: cover;
+   height: 400px;
+}
+
+.card-text{
+   font-size: 12px;
+}
+
+.alter-link{
+   border: 1px black solid;
+}
+
+.p-1 > .btn-secondary {
+   margin-bottom: 10px;
+}
