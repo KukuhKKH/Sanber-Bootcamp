@@ -111,6 +111,8 @@
             ]
         ];
 
+        print_r($soal3);
+
         // foreach ($soal3 as $value => $key) {
         //     foreach ($key as $isi) {
         //         echo $isi. " - ";
