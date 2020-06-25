@@ -12,10 +12,25 @@ echo $sheep->getLegs();
 echo "<br>";
 echo $sheep->getColdBlooded();
 echo "<br>";
+echo "<br>";
 
 
 $sungokong = new Ape("kera sakti");
+echo $sungokong->getName();
+echo "<br>";
 $sungokong->yell(); // "Auooo"
 echo "<br>";
+echo $sungokong->getLegs();
+echo "<br>";
+echo $sungokong->getColdBlooded();
+echo "<br>";
+echo "<br>";
 $kodok = new Frog("buduk");
+echo $kodok->getName();
+echo "<br>";
 $kodok->jump(); // "hop hop"
+echo "<br>";
+echo $kodok->getLegs();
+echo "<br>";
+echo $kodok->getColdBlooded();
+echo "<br>";
