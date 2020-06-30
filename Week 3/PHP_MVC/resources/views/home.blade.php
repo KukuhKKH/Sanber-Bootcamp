@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Halaman Utama</title>
+</head>
+<body>
+   <h1><b>SanberBook</b></h1>
+   <h3><b>Social Media Developer Santai Berkualitas</b></h3>
+   <p>Belajar dan Berbagi agar hidup ini semakin santai berkualitas</p>
+   <p><b>Benefit Join di SanberBook</b></p>
+   <ul>
+      <li>Mendapatkan motivasi dari sesama developer</li>
+      <li>Sharing knowledge dari para mastah Sanber</li>
+      <li>Dibuat oleh calon web developer terbaik</li>
+   </ul>
+   <p><b>Cara Bergabung ke SanberBook</b></p>
+   <ol>
+      <li>Mengunjungi Website ini</li>
+      <li>Mendaftar di <a href="{{ route('register') }}">Form Sign Up</a></li>
+      <li>Selesai!</li>
+   </ol>
+</body>
+</html>
